@@ -1,9 +1,15 @@
-import { Box, Typography, Grid } from '@mui/material';
-import lgVideo from 'lightgallery/plugins/video';
+import { Box, Typography } from '@mui/material';
+import 'lightgallery/css/lg-fullscreen.css';
+import 'lightgallery/css/lg-medium-zoom.css';
+import 'lightgallery/css/lg-rotate.css';
+import 'lightgallery/css/lg-thumbnail.css';
+import 'lightgallery/css/lg-zoom.css';
+import lgFullScreen from 'lightgallery/plugins/fullscreen';
+import lgRotate from 'lightgallery/plugins/rotate';
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 import LightGallery from 'lightgallery/react';
 import React from 'react';
-import { projectContainer } from '../../themes/commonStyles';
 import { data } from './data';
 import Project from './Project';
 
@@ -39,7 +45,7 @@ function Projects() {
             <Box>
                 <LightGallery
                     selector={'.project-image'}
-                    plugins={[lgVideo, lgZoom]}
+                    plugins={[lgThumbnail, lgZoom, lgRotate, lgFullScreen]}
                     elementClassNames="project-container"
                 >
                     {content}

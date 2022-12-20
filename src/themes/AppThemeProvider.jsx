@@ -26,7 +26,7 @@ const theme = createTheme({
       optional: "#ffffff",
     },
     secondary: {
-      main: pink[500],
+      main: pink[700],
     },
   },
   components: {

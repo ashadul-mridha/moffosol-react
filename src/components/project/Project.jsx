@@ -27,12 +27,12 @@ function Project({project}) {
                 <div className={styles.titleOverlap}>
                     <Typography 
                         variant="caption" 
-                        color="secondary.main"
+                        color="primary.optional"
                         sx={{
                             fontSize: 18
                         }}
                     >
-                        Title
+                        Lorem ipsum dolor sit amet?
                     </Typography>
                 </div>
             </a>
