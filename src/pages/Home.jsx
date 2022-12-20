@@ -1,14 +1,16 @@
 import React from 'react'
+import Footer from '../components/Footer/Footer'
+import Header from '../components/Header/Header'
 import OralHistory from '../components/oral-historical/OralHistory'
 import Projects from '../components/project/Projects'
-import Slider from '../components/slider/Slider'
 
 export default function Home() {
   return (
     <>
-        <Slider />
+        <Header />
         <OralHistory />
         <Projects />
+        <Footer />
     </>
   )
 }

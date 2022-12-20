@@ -8,16 +8,19 @@ const theme = createTheme({
       fontFamily: 'Raleway',
       textTransform: 'none',
       fontSize: 15,
-      fontWeight: 500
-    },
-    h3: {
-      fontSize: 22,
-      textTransform: 'capitalize',
+      fontWeight: 500,
     },
     h2: {
       fontSize: 26,
       textTransform: 'uppercase',
-      fontWeight: 500
+    },
+    h3: {
+      fontSize: 24,
+      textTransform: 'capitalize',
+    },
+    subtitle1: {
+      fontSize: 17,
+      textTransform: 'capitalize',
     },
   },
   palette: {

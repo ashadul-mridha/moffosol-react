@@ -31,6 +31,9 @@ function OralHistory() {
                         <Typography 
                             variant="caption"
                             color="primary.optional"
+                            sx={{
+                                fontSize: 13
+                            }}
                         >
                             Although photography as a science, technology, art and practice has a history longer than a century in Bangladesh, as a visual-cultural tradition it has not been recognised. In this context, Drik Picture Library in collaboration with Prince Claus Fund for Culture and Development and Pathshala – South Asian Media Institute has taken an initiative to document this tradition with a particular focus on history of mofussil (small town) photography in Bangladesh.
                         </Typography>
